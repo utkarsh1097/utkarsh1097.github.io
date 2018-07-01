@@ -443,17 +443,38 @@ nav a:hover::before {
 	margin-bottom: 30px;
 }
 
-.second-content .main-btn {
-	display: inline-block;
-	margin-right: 15px;
-}
 
 .second-content a {
 	color: #fff;
 	text-decoration: underline;
 }
 
+
+.second-content .main-btn {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
 .second-content .main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+
+.second-content .resume-btn {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.second-content .resume-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
