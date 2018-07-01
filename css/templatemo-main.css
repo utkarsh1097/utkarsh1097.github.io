@@ -486,6 +486,10 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.second-content .resume-btn a:hover {
+	background-color: #fff;
+	color: #232323!important;
+}
 
 .third-content {
 	text-align: left;
